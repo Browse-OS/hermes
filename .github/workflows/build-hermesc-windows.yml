@@ -21,7 +21,7 @@ jobs:
         run: |
           mkdir -p C:\tmp\hermes\osx-bin
       - name: setup-msbuild
-        uses: microsoft/setup-msbuild@v1.3.2
+        uses: microsoft/setup-msbuild@v1.3.3
       - name: Set up workspace
         shell: powershell
         run: |
